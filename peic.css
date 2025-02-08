@@ -98,6 +98,7 @@
     font-size: 2rem;
     margin-bottom: 1.5rem;
     line-height: 1.3;
+    text-align: left;
 }
 
 .peic-grid {
@@ -203,6 +204,42 @@
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.7);
+}
+
+.file-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+}
+
+.file-label {
+    flex: 1;
+    padding: 0.8rem;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+}
+
+#file-upload {
+    display: none;
+}
+
+.file-upload-btn {
+    background: transparent;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 
 .submit-btn {

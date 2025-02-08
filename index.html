@@ -12,18 +12,20 @@
     <nav class="navbar">
         <img src="./assets/Logo2.png" alt="Aigerpeak Logo" class="logo">
         <div class="nav-links">
+            <a href="index.html">Home</a>
             <a href="peic.html">PEIC</a>
             <a href="#why-choose-section">Why Choose Us</a>
             <a href="#service-section">Our Services</a>
-            <a href="#contact-section">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
         </div>
         <a class="hamburger" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
     </nav>
     <div class="dropdown">
+        <a href="index.html">Home</a>
         <a href="peic.html">PEIC</a>
         <a href="#why-choose-section">Why Choose Us</a>
         <a href="#services-section">Our Services</a>
-        <a href="#contact-section">Contact Us</a>
+        <a href="contact.html">Contact Us</a>
     </div>
     
     <div class="hero">
@@ -120,6 +122,17 @@
             </div>
             <div class="form-full">
                 <input type="email" placeholder="Email *" required>
+            </div>
+            <div class="form-full file-input-container">
+                <label class="file-label">Electricity Bill</label>
+                <input type="file" id="file-upload">
+                <button type="button" class="file-upload-btn" onclick="document.getElementById('file-upload').click();">
+                    <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="17 8 12 3 7 8"/>
+                        <line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                </button>
             </div>
             <div class="form-full">
                 <textarea placeholder="Message" rows="5"></textarea>
