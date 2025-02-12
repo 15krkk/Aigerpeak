@@ -13,6 +13,8 @@
         <img src="./assets/Logo2.png" alt="Aigerpeak Logo" class="logo">
         <div class="nav-links">
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+
             <a href="#">PEIC</a>
             <a href="index.html#why-choose-section">Why Choose Us</a>
             <a href="index.html#service-section">Our Services</a>
@@ -22,9 +24,10 @@
     </nav>
     <div class="dropdown">
         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="#">PEIC</a>
-        <a href="#why-choose-section">Why Choose Us</a>
-        <a href="#service-section">Our Services</a>
+        <a href="index.html#service-section">Why Choose Us</a>
+        <a href="index.html#why-choose-section">Our Services</a>
         <a href="#contact-section">Contact Us</a>
     </div>
     
@@ -468,6 +471,7 @@
                         <p>Elevate your electrical system with integrated automation to enhance performance and efficiency!<br>Contact us today for a customized Post Electrical Integrated Automation Assessment!</p>
                         <button class="peic-button" onclick="window.location.href='contact.html';">Enquiry</button>
                         <button class="peic-button" onclick="window.location.href='tel:+1234567890';">Call</button>
+                    
                     </div>
                 </div>
                 <div class="peic-card">
@@ -506,6 +510,7 @@
                         <p>Embrace renewable energy today for a sustainable, cost-effective future!<br>Contact us for a comprehensive Renewable Energy Integration Assessment and start saving!</p>
                         <button class="peic-button" onclick="window.location.href='contact.html';">Enquiry</button>
                         <button class="peic-button" onclick="window.location.href='tel:+1234567890';">Call</button>
+                    
                     </div>
                 </div>
             </div>
@@ -517,8 +522,8 @@
 
  
 
-    <section class="contact-section" id="contact-section">
-        <h2 class="contact-title">Contact Us</h2>
+   <section class="contact-section" id="contact-section">
+        <h2 class="contact-title" style="color: white;">Contact Us</h2>
         <form class="contact-form">
             <div class="form-row">
                 <input type="text" placeholder="First Name *" required>
@@ -527,6 +532,18 @@
             <div class="form-full">
                 <input type="email" placeholder="Email *" required>
             </div>
+            <div class="form-full">
+                <input type="email" placeholder="Adress*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Post office*" required>
+                <input type="text" placeholder="District*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Building square feet area*" required>
+                <input type="text" placeholder="Age of building*" required>
+            </div>
+            
             <div class="form-full file-input-container">
                 <label class="file-label">Electricity Bill</label>
                 <input type="file" id="file-upload">
@@ -539,7 +556,7 @@
                 </button>
             </div>
             <div class="form-full">
-                <textarea placeholder="Message" rows="5"></textarea>
+                <textarea placeholder="Describe your problem" rows="5"></textarea>
             </div>
             <button type="submit" class="submit-btn">Submit</button>
         </form>

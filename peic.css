@@ -6,6 +6,10 @@
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     padding: 1rem 5%;
     background: white;
     display: flex;
@@ -15,6 +19,7 @@
 }
 
 .hamburger {
+    
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -23,9 +28,14 @@
 }
 
 .dropdown {
+    z-index: 2;
     display: none;
     flex-direction: column;
     padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 4rem;
+    background-color: white;
 }
 
 .dropdown a {
